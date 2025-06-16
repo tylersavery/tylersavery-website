@@ -4,6 +4,9 @@
 export interface Project {
     title: string;
     imageUrl: string;
+    heroImageUrl?: string;
+    heroVideoUrl?: string;
+    heroIsVertical?: boolean;
     excerpt: string;
     slug: string;
     frameworks: string[];
@@ -12,5 +15,6 @@ export interface Project {
     externalUrl?: string;
     media: string[];
     body: string;
+    platforms: string[];
 
 }

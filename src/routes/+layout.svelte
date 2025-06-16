@@ -27,6 +27,4 @@
 	{@render children()}
 </div>
 
-<div class="my-4"></div>
-
 <Footer />

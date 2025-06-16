@@ -43,7 +43,13 @@
                         {#each project.frameworks as item}
                             <span
                                 class="badge badge-info tooltip"
-                                data-tip="framework">{item}</span
+                                data-tip="Framework">{item}</span
+                            >
+                        {/each}
+                        {#each project.platforms as item}
+                            <span
+                                class="badge badge-warning tooltip"
+                                data-tip="Platform">{item}</span
                             >
                         {/each}
                     </div>

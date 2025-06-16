@@ -24,6 +24,27 @@
     });
 </script>
 
+<svelte:head>
+    <title>{project.title} | TylerSavery.com</title>
+    <meta name="description" content={project.excerpt} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={project.title} />
+    <meta property="og:description" content={project.excerpt} />
+    <meta property="og:image" content={project.imageUrl} />
+    <meta
+        property="og:url"
+        content={`https://tylersavery.com/projects/${project.slug}`}
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={project.title} />
+    <meta name="twitter:description" content={project.excerpt} />
+    <meta name="twitter:image" content={project.imageUrl} />
+</svelte:head>
+
 <section class="max-w-5xl mx-auto p-6 space-y-8 text-content">
     <div class="py-4"></div>
     <!-- Header -->
@@ -52,40 +73,65 @@
         </p>
     </div>
     <!-- Image -->
-    <img
-        src={project.imageUrl}
-        alt={project.title}
-        class="rounded-box shadow-xl w-full object-cover"
-    />
+    {#if project.heroVideoUrl}
+        <video
+            src={project.heroVideoUrl}
+            muted
+            autoplay
+            playsinline
+            loop
+            class={`rounded-box shadow-xl object-cover w-full ${project.heroIsVertical ? "md:w-1/2 mx-auto" : "md:w-full"}`}
+        ></video>
+    {:else}
+        <img
+            src={project.heroImageUrl || project.imageUrl}
+            alt={project.title}
+            class="rounded-box shadow-xl w-full object-cover"
+        />
+    {/if}
 
     <!-- Tags -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div>
-            <h2 class="font-semibold mb-2">Roles</h2>
-            <div class="flex flex-wrap gap-2">
-                {#each project.roles as role}
-                    <span class="badge badge-primary">{role}</span>
-                {/each}
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        {#if project.roles.length > 0}
+            <div>
+                <h2 class="font-semibold mb-2">Roles</h2>
+                <div class="flex flex-wrap gap-2">
+                    {#each project.roles as role}
+                        <span class="badge badge-primary">{role}</span>
+                    {/each}
+                </div>
             </div>
-        </div>
-
-        <div>
-            <h2 class="font-semibold mb-2">Languages</h2>
-            <div class="flex flex-wrap gap-2">
-                {#each project.languages as lang}
-                    <span class="badge badge-secondary">{lang}</span>
-                {/each}
+        {/if}
+        {#if project.languages.length > 0}
+            <div>
+                <h2 class="font-semibold mb-2">Languages</h2>
+                <div class="flex flex-wrap gap-2">
+                    {#each project.languages as lang}
+                        <span class="badge badge-secondary">{lang}</span>
+                    {/each}
+                </div>
             </div>
-        </div>
-
-        <div>
-            <h2 class="font-semibold mb-2">Frameworks</h2>
-            <div class="flex flex-wrap gap-2">
-                {#each project.frameworks as fw}
-                    <span class="badge badge-info">{fw}</span>
-                {/each}
+        {/if}
+        {#if project.frameworks.length > 0}
+            <div>
+                <h2 class="font-semibold mb-2">Frameworks</h2>
+                <div class="flex flex-wrap gap-2">
+                    {#each project.frameworks as fw}
+                        <span class="badge badge-info">{fw}</span>
+                    {/each}
+                </div>
             </div>
-        </div>
+        {/if}
+        {#if project.platforms.length > 0}
+            <div>
+                <h2 class="font-semibold mb-2">Platforms</h2>
+                <div class="flex flex-wrap gap-2">
+                    {#each project.platforms as p}
+                        <span class="badge badge-warning">{p}</span>
+                    {/each}
+                </div>
+            </div>
+        {/if}
     </div>
 
     <!-- Body (markdown) -->

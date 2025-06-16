@@ -2,13 +2,15 @@ import type { Project } from "$lib/types";
 
 const projects: Project[] = [
     {
-        imageUrl: "/images/projects/ya/ya-hero.jpg",
+        imageUrl: "/images/projects/ya/ya.jpg",
+        heroImageUrl: "/images/projects/ya/ya-hero.jpg",
         title: "The Young Astronauts",
         slug: "the-young-astronauts",
         excerpt: `The Young Astronauts are a team of multidisciplinary creatives based in Toronto & Los Angeles specializing in 360° Campaigns, Direction, Film, Technology & Design.`,
         frameworks: ["django", "svelte", "flutter"],
         languages: ["python", "javascript", "dart"],
         roles: ["co-founder", "CTO",],
+        platforms: [],
         externalUrl: "https://theyoungastronauts.com",
         media: ["/images/projects/ya/media/1.jpg", "/images/projects/ya/media/2.jpg", "/images/projects/ya/media/3.jpg", "/images/projects/ya/media/4.jpg", "/images/projects/ya/media/5.jpg", "/images/projects/ya/media/6.jpg", "/images/projects/ya/media/7.jpg", "/images/projects/ya/media/8.jpg"],
         body: `
@@ -24,13 +26,16 @@ Our approach blends storytelling, design, and engineering to deliver unique, hig
 `,
     },
     {
-        imageUrl: "/images/projects/vfx/vfx-hero.jpg",
+        imageUrl: "/images/projects/vfx/vfx.jpg",
+        heroImageUrl: "/images/projects/vfx/vfx-hero.webp",
+
         title: "VerifiedX",
         slug: "verified-x",
         excerpt: `VerifiedX (VFX) is an open-source decentralized network that is both a universal layer 1 and a Bitcoin sidechain for the purpose of tokenized self-custody, on-chain storage, and peer-to-peer commerce of both digital & physical assets.`,
         frameworks: ["flutter", "django"],
-        languages: ["dart", "javascript", "python"],
-        roles: ["co-founder", "frontend", "api"],
+        languages: ["dart", "python"],
+        roles: ["co-founder", "dev"],
+        platforms: ['windows', 'mac', 'web'],
         externalUrl: "https://verifiedx.io",
         media: [],
         body: `
@@ -47,7 +52,9 @@ These interfaces are critical to the ecosystem, enabling both end-users and buil
 
     },
     {
-        imageUrl: "/images/projects/surf/surf-hero.webp",
+        imageUrl: "/images/projects/surf/surf.webp",
+        heroVideoUrl: "/images/projects/surf/surf-hero.mp4",
+
         title: "Surf Music",
         slug: "surf-music",
         excerpt: `SURF MUSIC is a digital marketplace ecosystem for music creators and buyers across the global entertainment industry.`,
@@ -55,6 +62,7 @@ These interfaces are critical to the ecosystem, enabling both end-users and buil
         languages: ["dart", "python"],
         roles: ["CTO", "frontend", "backend"],
         externalUrl: "https://discover.surf",
+        platforms: ['web'],
         media: [],
         body: `
 [Surf Music](https://discover.surf) is a B2B platform for managing and licensing **exclusive music rights** across artists, labels, and brands. It enables streamlined negotiation, asset management, and usage tracking for high-value music placements in advertising, entertainment, and digital campaigns.
@@ -69,6 +77,38 @@ As **CTO** and lead developer at Surf, I architected and built the platform from
 Surf is purpose-built for speed, clarity, and legal precision — and as CTO, I ensure that every part of the stack supports the needs of a high-trust, business-critical user base.
 
 `,
+
+    },
+    {
+        imageUrl: "/images/projects/hdreye/hdreye.webp",
+        heroVideoUrl: "/images/projects/hdreye/hdreye-hero.mp4",
+        heroIsVertical: true,
+        title: "HDReye",
+        slug: "hdreye",
+        excerpt: `HDReye is the first and only iOS app for capturing custom 360° HDRi images with your iPhone for realistic 3D lighting and compositing in VFX workflows and more.`,
+        frameworks: ["django", "swiftUI"],
+        languages: ["python", "swift"],
+        platforms: ['iOS'],
+        roles: ["co-founder", "backend"],
+        externalUrl: "https://hdreye.app",
+        media: [],
+        body: ``,
+
+    },
+    {
+        imageUrl: "/images/projects/storyplace/storyplace.webp",
+        heroImageUrl: "/images/projects/storyplace/storyplace-hero.jpg",
+
+        title: "Storyplace",
+        slug: "storyplace",
+        excerpt: `Storyplace is the first social journaling app, where people from around the world share their journal entries, stories, feelings, and thoughts in a supportive community.`,
+        frameworks: ["django", "flutter"],
+        languages: ["python", "dart"],
+        platforms: ['iOS', "android", "web"],
+        roles: ["backend", "frontend", "partner"],
+        externalUrl: "https://storyplace.com",
+        media: [],
+        body: ``,
 
     },
 ];
