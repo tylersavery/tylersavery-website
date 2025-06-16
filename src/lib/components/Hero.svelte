@@ -21,8 +21,12 @@
         />
 
         <div class="flex flex-col">
-            <div class="flex flex-col items-start">
-                <h1 class="text-3xl md:text-5xl font-crafty">Hi, I'm Tyler.</h1>
+            <div class="flex flex-col items-center md:items-start">
+                <h1
+                    class="text-3xl md:text-5xl font-crafty text-center md:text-left"
+                >
+                    Hi, I'm Tyler.
+                </h1>
                 <h2 class="text-xl font-crafty opacity-80 mt-3">
                     I make things that go on the internet.
                 </h2>

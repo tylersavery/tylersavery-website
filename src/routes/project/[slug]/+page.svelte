@@ -46,15 +46,17 @@
 </svelte:head>
 
 <section class="max-w-5xl mx-auto p-6 space-y-8 text-content">
-    <div class="py-4"></div>
+    <div class="py-4 hidden md:block"></div>
     <!-- Header -->
 
     <div class="space-y-2 flex-1 text-left">
-        <div class="flex items-center">
-            <h1 class="text-5xl flex-1 font-bold">{project.title}</h1>
+        <div class="flex items-center flex-col md:flex-row">
+            <h1 class="text-5xl flex-1 font-bold text-center md:text-left">
+                {project.title}
+            </h1>
             <div>
                 {#if project.externalUrl}
-                    <div class="text-center">
+                    <div class="text-center mt-3 md:mt-0">
                         <a
                             href={project.externalUrl}
                             target="_blank"
@@ -68,7 +70,7 @@
             </div>
         </div>
         <div class="divider"></div>
-        <p class="text-lg text-content text-justify">
+        <p class="text-lg text-content text-left">
             {project.excerpt}
         </p>
     </div>

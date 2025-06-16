@@ -17,10 +17,10 @@
         <div
             class="pl-none md:pl-3 group-hover:translate-x-3 transition-transform duration-600 ease-in-out"
         >
-            <h1 class="text-5xl font-bold">
+            <h1 class="text-5xl font-bold text-center md:text-left">
                 {project.title}
             </h1>
-            <p class="py-6">
+            <p class="py-6 text-center md:text-left">
                 {project.excerpt}
             </p>
             <div class="flex items-center">
