@@ -74,14 +74,28 @@
     </div>
     <!-- Image -->
     {#if project.heroVideoUrl}
-        <video
-            src={project.heroVideoUrl}
-            muted
-            autoplay
-            playsinline
-            loop
-            class={`rounded-box shadow-xl object-cover w-full ${project.heroIsVertical ? "md:w-1/2 mx-auto" : "md:w-full"}`}
-        ></video>
+        {#if project.heroVideoUrl.includes("youtube.com")}
+            <div class="aspect-video w-full">
+                <iframe
+                    src={`https://www.youtube.com/embed/${project.heroVideoUrl.replace("https://www.youtube.com/watch?v=", "")}`}
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy"
+                    class="w-full h-full rounded-lg"
+                    title={project.title}
+                ></iframe>
+            </div>
+        {:else}
+            <video
+                src={project.heroVideoUrl}
+                muted
+                autoplay
+                playsinline
+                loop
+                class={`rounded-box shadow-xl object-cover w-full ${project.heroIsVertical ? "md:w-1/2 mx-auto" : "md:w-full"}`}
+            ></video>
+        {/if}
     {:else}
         <img
             src={project.heroImageUrl || project.imageUrl}

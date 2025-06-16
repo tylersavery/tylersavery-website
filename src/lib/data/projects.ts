@@ -27,7 +27,7 @@ Our approach blends storytelling, design, and engineering to deliver unique, hig
     },
     {
         imageUrl: "/images/projects/vfx/vfx.jpg",
-        heroImageUrl: "/images/projects/vfx/vfx-hero.webp",
+        heroVideoUrl: "https://www.youtube.com/watch?v=hgp9nlsWFv8",
 
         title: "VerifiedX",
         slug: "verified-x",

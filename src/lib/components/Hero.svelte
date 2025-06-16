@@ -23,7 +23,7 @@
         <div class="flex flex-col">
             <div class="flex flex-col items-start">
                 <h1 class="text-3xl md:text-5xl font-crafty">Hi, I'm Tyler.</h1>
-                <h2 class="text-lg font-crafty opacity-80 mt-2">
+                <h2 class="text-xl font-crafty opacity-80 mt-3">
                     I make things that go on the internet.
                 </h2>
             </div>

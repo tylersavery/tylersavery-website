@@ -12,8 +12,8 @@
     <header
         class="fixed top-0 left-0 w-full bg-base-100 shadow-md flex justify-between items-center px-6 py-4 z-50"
     >
-        <a class="text-lg font-crafty hover:text-success" href="/"
-            >TylerSavery.com</a
+        <a class="text-lg hover:text-success" href="/"
+            >Who is <span class="font-bold">Tyler Savery</span>?</a
         >
 
         <div class="flex space-x-4">

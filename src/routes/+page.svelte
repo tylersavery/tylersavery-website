@@ -47,7 +47,7 @@
         <ProjectListItem {...project} />
     {/each}
 
-    <p class="text-xl tracking-wider font-semibold text-center py-4 bg-error">
+    <p class="text-xl tracking-wider font-semibold text-center py-4 bg-primary">
         More Projects Listing Soon!
     </p>
 </div>
