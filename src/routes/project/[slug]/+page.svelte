@@ -56,7 +56,7 @@
             </h1>
             <div>
                 {#if project.externalUrl}
-                    <div class="text-center mt-3 md:mt-0">
+                    <div class="text-center mt-6 md:mt-0">
                         <a
                             href={project.externalUrl}
                             target="_blank"

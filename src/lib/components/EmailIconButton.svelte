@@ -7,7 +7,7 @@
 </script>
 
 <a
-    href="mailto:hi@tylersavery.com"
+    href="/contact"
     class="text-accent hover:text-success transition-colors duration-300"
     aria-label="Send Email"
 >

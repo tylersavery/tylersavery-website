@@ -11,7 +11,7 @@
 </script>
 
 <section
-    class="flex flex-col items-center md:items-start justify-start md:justify-center text-center p-8 min-h-[70vh] md:min-h-[300px] bg-base-300"
+    class="flex flex-col items-center md:items-start justify-start md:justify-center text-center p-8 min-h-[calc(100vh-theme(space.16))] md:min-h-[300px] bg-base-300"
 >
     <div class="flex items-center gap-2 flex-col md:flex-row">
         <img
