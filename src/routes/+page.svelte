@@ -20,6 +20,8 @@
     {/each}
 
     <p class="text-xl tracking-wider font-semibold text-center py-4 bg-primary">
-        More Projects Listing Soon!
+        Want to see more? Here are a few <a href="/random" class="link"
+            >random projects</a
+        >!
     </p>
 </div>

@@ -18,3 +18,11 @@ export interface Project {
     platforms: string[];
 
 }
+
+export interface LiteProject {
+    title: string;
+    imageUrl: string;
+    externalUrl?: string;
+    tech?: string[]
+
+}
