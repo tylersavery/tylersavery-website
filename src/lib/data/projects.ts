@@ -12,7 +12,8 @@ const projects: Project[] = [
         roles: ["co-founder", "CTO",],
         platforms: [],
         externalUrl: "https://theyoungastronauts.com",
-        media: ["/images/projects/ya/media/1.jpg", "/images/projects/ya/media/2.jpg", "/images/projects/ya/media/3.jpg", "/images/projects/ya/media/4.jpg", "/images/projects/ya/media/5.jpg", "/images/projects/ya/media/6.jpg", "/images/projects/ya/media/7.jpg", "/images/projects/ya/media/8.jpg"],
+        media: [],
+        // media: ["/images/projects/ya/media/1.jpg", "/images/projects/ya/media/2.jpg", "/images/projects/ya/media/3.jpg", "/images/projects/ya/media/4.jpg", "/images/projects/ya/media/5.jpg", "/images/projects/ya/media/6.jpg", "/images/projects/ya/media/7.jpg", "/images/projects/ya/media/8.jpg"],
         body: `
 
 Founded in 2008, [The Young Astronauts](https://theyoungastronauts.com) is a creative and technology studio based in Toronto and Los Angeles. We collaborate with global brands, artists, startups, and entertainment IP to build culturally impactful digital experiences.
