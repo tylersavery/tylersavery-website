@@ -32,6 +32,7 @@
 		]
 	},
 	"dependencies": {
+		"github-calendar": "^2.3.4",
 		"marked": "^15.0.12"
 	}
 }

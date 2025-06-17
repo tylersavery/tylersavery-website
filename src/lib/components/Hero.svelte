@@ -1,5 +1,6 @@
 <script lang="ts">
     import EmailIconButton from "./EmailIconButton.svelte";
+    import GithubIconButton from "./GithubIconButton.svelte";
     import YoutubeIconButton from "./YoutubeIconButton.svelte";
 
     interface Props {
@@ -37,6 +38,7 @@
             >
                 <EmailIconButton isBig={true} />
                 <YoutubeIconButton isBig={true} />
+                <GithubIconButton isBig={true} />
             </div>
         </div>
     </div>
