@@ -1,6 +1,6 @@
 <script lang="ts">
     import Header from "$lib/components/Header.svelte";
-    import { marked, type RendererObject } from "marked"; // markdown parser
+    import { marked } from "marked";
     import { onMount } from "svelte";
     const { data } = $props();
 

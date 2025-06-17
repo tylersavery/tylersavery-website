@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Bio from "$lib/components/Bio.svelte";
     import Hero from "$lib/components/Hero.svelte";
     import PrimaryHead from "$lib/components/PrimaryHead.svelte";
     import ProjectListItem from "$lib/components/ProjectListItem.svelte";
@@ -8,6 +9,10 @@
 <PrimaryHead />
 
 <Hero name="Tyler Savery" photoUrl="#" onContactClick={() => {}} />
+
+<div class="max-w-7xl mx-auto pt-6">
+    <Bio />
+</div>
 
 <div class=" flex flex-col">
     {#each projects as project}
