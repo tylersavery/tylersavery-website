@@ -519,11 +519,6 @@ acorn@^8.12.1, acorn@^8.14.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.15.0.tgz#a360898bc415edaac46c8241f6383975b930b816"
   integrity sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==
 
-add-subtract-date@^1.0.15:
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/add-subtract-date/-/add-subtract-date-1.0.16.tgz#3c7cb71c32d4cd9d617948f32bdad81140fbecea"
-  integrity sha512-pmGFYgOmVhZ7R47PB/h/BLt/f77rVZL3WXvxSUWKSd6RTe7lHu7ZalQUYWJ2RXNIuv9KKZjstyuKnNQqbqtoGw==
-
 aria-query@^5.3.1:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-5.3.2.tgz#93f81a43480e33a338f19163a3d10a50c01dcd59"
@@ -566,11 +561,6 @@ daisyui@^5.0.43:
   resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.0.43.tgz#9c1ce45c8967825dc88330f1dfdfcd670c60d8d9"
   integrity sha512-2pshHJ73vetSpsbAyaOncGnNYL0mwvgseS1EWy1I9Qpw8D11OuBoDNIWrPIME4UFcq2xuff3A9x+eXbuFR9fUQ==
 
-days@^1.0.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/days/-/days-1.1.1.tgz#b039d1e5ad5335ca689401855546f02d4cfcb362"
-  integrity sha512-vzeIwVsEIyA35GH4+mPd4hjVDNI87wYANyZFs0BHjBr5kIBH5zEl7LfD6Wr4SFZca4D3CU9IH1w4DuZLlXzKRw==
-
 debug@^4.3.7, debug@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.1.tgz#e5a8bc6cbc4c6cd3e64308b0693a3d4fa550189b"
@@ -592,14 +582,6 @@ devalue@^5.1.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.1.1.tgz#a71887ac0f354652851752654e4bd435a53891ae"
   integrity sha512-maua5KUiapvEwiEAe+XnlZ3Rh0GD+qI1J/nb9vrJc3muPXvcF/8gXYTWF76+5DAqHyDUtOIImEuo0YKE9mshVw==
-
-elly@^1.1.11:
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/elly/-/elly-1.1.11.tgz#2600ad6b72548e39f9b792d2c4d46955ed59e12a"
-  integrity sha512-WFKVcEKEOjdSOhNYFKWQoJDk0Sb0re6v0fIsGkePn97dmPpKM/YoOKRdYIb34T1R13KPRNzDBDmT/Flb/54NXg==
-  dependencies:
-    iterate-object "^1.3.2"
-    sliced "^1.0.1"
 
 enhanced-resolve@^5.18.1:
   version "5.18.1"
@@ -657,47 +639,10 @@ fdir@^6.2.0, fdir@^6.4.4:
   resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.4.6.tgz#2b268c0232697063111bbf3f64810a2a741ba281"
   integrity sha512-hiFoqpyZcfNm1yc4u8oWCf9A2c4D3QjCrks3zmoVKVxpQRzmPNar1hUJcBG2RQHvEVGDN+Jm81ZheVLAQMK6+w==
 
-fillo@^1.0.0:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/fillo/-/fillo-1.0.15.tgz#5fde599f65dc796e3bae193158a01e0c4c5d72da"
-  integrity sha512-AU9+1s5J2halrmGGe9On+a8TXfbaXsY9JLz/sxPsmcISaqcGn0M9Pt6cQzKPesqdzQdSQ08JJHH5RZR9HdF2Jw==
-
-formatoid@^1.2.4:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/formatoid/-/formatoid-1.2.5.tgz#6d8e49e29cbf16ff26b932d36f650c307b10ff2a"
-  integrity sha512-ADuqDTwrQd0800jF0G6tL3mWwO8aGStjypqvrwkhTnoQc2fD1hc9reGtrMiRmWK7ti1n2NUfy+6WKfJ+AJUsvA==
-  dependencies:
-    days "^1.0.1"
-    fillo "^1.0.0"
-    months "^1.0.0"
-    parse-it "^1.0.0"
-
 fsevents@~2.3.2, fsevents@~2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
-
-github-calendar-legend@^1.0.11:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/github-calendar-legend/-/github-calendar-legend-1.0.12.tgz#e249f2426cb236d310c7b39fa89fc68d3499f9d0"
-  integrity sha512-dVsVt22egxG3VEkJdQTdgphQkDj4FyQ1Sen4o4GteEz4SA7s2rX9j2fDR46fZaPLU8IXfL4Ig0h3z/zmb6ORWA==
-
-github-calendar-parser@^1.2.2:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/github-calendar-parser/-/github-calendar-parser-1.2.3.tgz#0fefb916438beb5d22870eca79dc0d7c87b33d09"
-  integrity sha512-yd7GcKibU01nfD82h5dxLVUOaNDySABhYN/Y29OP1p03h38UpJxy23qe2hheIHbtZAwvQ15ErPAapgVGXmbYnQ==
-  dependencies:
-    github-calendar-legend "^1.0.11"
-
-github-calendar@^2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/github-calendar/-/github-calendar-2.3.4.tgz#6d4162f1cd0ddd7719b9275098e88c004575a4e8"
-  integrity sha512-B2szQw0xVOluHYeuamkVtJXCHk5TaVyPjw2z4ynfnGlQ/jr2cb66SPgeNDcDHlGONOipQccWxv/VNVN5Gqr14A==
-  dependencies:
-    add-subtract-date "^1.0.15"
-    elly "^1.1.11"
-    formatoid "^1.2.4"
-    github-calendar-parser "^1.2.2"
 
 graceful-fs@^4.2.4:
   version "4.2.11"
@@ -710,11 +655,6 @@ is-reference@^3.0.3:
   integrity sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==
   dependencies:
     "@types/estree" "^1.0.6"
-
-iterate-object@^1.3.2:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/iterate-object/-/iterate-object-1.3.5.tgz#3a561311aad5eb6c68d43a8d5e6de0ae27edea5d"
-  integrity sha512-eL23u8oFooYTq6TtJKjp2RYjZnCkUYQvC0T/6fJfWykXJ3quvdDdzKZ3CEjy8b3JGOvLTjDYMEMIp5243R906A==
 
 jiti@^2.4.2:
   version "2.4.2"
@@ -848,11 +788,6 @@ mkdirp@^3.0.1:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-3.0.1.tgz#e44e4c5607fb279c168241713cc6e0fea9adcb50"
   integrity sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==
 
-months@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/months/-/months-1.2.0.tgz#beef54873960334abe0b03f6b38db8adb44a13ac"
-  integrity sha512-zFM7hUpziSYGk2DNObYGWgHdRRxAOgjl8CC1Rbl50p/q0rGDsREfk0nbxxmSIquVi/lEAuUY8nwbwkZ8biNCOQ==
-
 mri@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mri/-/mri-1.2.0.tgz#6721480fec2a11a4889861115a48b6cbe7cc8f0b"
@@ -872,13 +807,6 @@ nanoid@^3.3.11:
   version "3.3.11"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
   integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
-
-parse-it@^1.0.0:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/parse-it/-/parse-it-1.0.11.tgz#97eb9ae2f303b50601d5dd9af5f1d898962eadf5"
-  integrity sha512-1OWDPQNF7eUxkqPdP4vFu96QnVwQjy2zag5CZcF3Ipd12s1iu8nPpgNBsda0tgZlj04vSrIZ5DQr2bqp5Cn6UQ==
-  dependencies:
-    regex-escape "^3.4.0"
 
 picocolors@^1.0.0, picocolors@^1.1.1:
   version "1.1.1"
@@ -911,11 +839,6 @@ readdirp@^4.0.1:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-4.1.2.tgz#eb85801435fbf2a7ee58f19e0921b068fc69948d"
   integrity sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==
-
-regex-escape@^3.4.0:
-  version "3.4.11"
-  resolved "https://registry.yarnpkg.com/regex-escape/-/regex-escape-3.4.11.tgz#5a1c34e0c6be4aef71b65d7e6957a85c191fd773"
-  integrity sha512-051l4Hl/0HoJwTvNztrWVjoxLiseSfCrDgWqwR1cnGM/nyQSeIjmvti5zZ7HzOmsXDPaJ2k0iFxQ6/WNpJD5wQ==
 
 rollup@^4.34.9:
   version "4.43.0"
@@ -966,11 +889,6 @@ sirv@^3.0.0:
     "@polka/url" "^1.0.0-next.24"
     mrmime "^2.0.0"
     totalist "^3.0.0"
-
-sliced@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/sliced/-/sliced-1.0.1.tgz#0b3a662b5d04c3177b1926bea82b03f837a2ef41"
-  integrity sha512-VZBmZP8WU3sMOZm1bdgTadsQbcscK0UM8oKxKVBs4XAhUo2Xxzm/OFMGBkPusxw9xL3Uy8LrzEqGqJhclsr0yA==
 
 source-map-js@^1.2.1:
   version "1.2.1"
