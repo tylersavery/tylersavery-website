@@ -15,7 +15,7 @@ My current toolkit includes **Python** + **Django**, **Dart** + **Flutter**, and
 
 I'm equally passionate about sharing knowledge. My [YouTube](https://www.youtube.com/@TylerCodes)  channel covers both beginner-friendly and advanced topics in full-stack development, and it's a great resource if you're looking to level up your skills.
 
-Outside of work, I enjoy making music, exploring the outdoors, and playing everything from board games to video games — though these days, most of my free time is joyfully claimed by my toddler, Lane.
+Outside of work, I enjoy making music, exploring the outdoors, and playing everything from board games to video games. These days, though, most of my free time is joyfully claimed by my beautiful wife, Heather, and our two boys, Lane and Halley.
 
 Thanks for stopping by. I've got some exciting things planned for this space — stay tuned!
 
